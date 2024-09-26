@@ -1,1 +1,125 @@
-/* your code here */
+/* Basic reset and body styles */  
+body {  
+    margin: 0;  
+    font-family: Arial, sans-serif;  
+}  
+
+/* Footer styles */  
+footer {  
+    background-color: #000; /* Black background */  
+    color: #fff; /* White text */  
+    padding: 40px 20px; /* Padding for top and bottom */  
+}  
+
+/* Content section in the footer */  
+.content {  
+    display: flex;  
+    flex-direction: column; /* Vertical layout */  
+    align-items: center; /* Center items */  
+}  
+
+/* Top section for logo and icons */  
+.top-section {  
+    display: flex;  
+    justify-content: space-between; /* Space between logo and icons */  
+    width: 100%; /* Full width */  
+    max-width: 1000px; /* Max width of footer content */  
+    align-items: center; /* Center vertically */  
+    margin-bottom: 20px; /* Space below top section */  
+}  
+
+/* Logo section */  
+.logo-details {  
+    margin-bottom: 20px; /* Space below logo */  
+}  
+
+/* Media icons section */  
+.media-icons {  
+    display: flex;  
+    gap: 15px; /* Space between icons */  
+}  
+
+/* Media icon styles */  
+.media-icons a {  
+    color: #fff; /* Icon color */  
+    background-color: #3b5998; /* Default background for Facebook */  
+    border-radius: 50%; /* Circular icons */  
+    padding: 10px; /* Padding for icons */  
+    text-align: center; /* Center text in icons */  
+    text-decoration: none; /* Remove underline */  
+    width: 40px; /* Fixed width */  
+    height: 40px; /* Fixed height */  
+    display: flex; /* Flexbox for centering */  
+    align-items: center; /* Center vertically */  
+    justify-content: center; /* Center horizontally */  
+}  
+
+.media-icons a.twitter {  
+    background-color: #1da1f2; /* Twitter color */  
+}  
+
+.media-icons a.instagram {  
+    background-color: #e1306c; /* Instagram color */  
+}  
+
+.media-icons a.linkedin {  
+    background-color: #0077b5; /* LinkedIn color */  
+}  
+
+.media-icons a.youtube {  
+    background-color: #ff0000; /* YouTube color */  
+}  
+
+/* Link boxes */  
+.link-boxes {  
+    display: flex;  
+    justify-content: space-between; /* Space between boxes */  
+    width: 100%; /* Full width for boxes */  
+    max-width: 1000px; /* Max width of footer content */  
+    margin-top: 20px; /* Space above link boxes */  
+}  
+
+.box {  
+    flex: 1; /* Allow boxes to grow equally */  
+    margin: 0 20px; /* Space between boxes */  
+}  
+
+.box h3 {  
+    margin-bottom: 10px; /* Space below header */  
+    font-weight: bold;  
+    border-bottom: 1px solid #fff; /* Underline for headers */  
+}  
+
+.box ul {  
+    list-style: none; /* Remove bullet points */  
+    padding: 0; /* Remove padding */  
+}  
+
+.box ul li {  
+    margin: 5px 0; /* Space between links */  
+}  
+
+.box a {  
+    color: #fff; /* Link color */  
+    text-decoration: none; /* Remove underline */  
+}  
+
+.box a:hover {  
+    text-decoration: underline; /* Underline on hover */  
+}  
+
+/* Bottom details */  
+.bottom-details {  
+    text-align: center; /* Center text */  
+    margin-top: 20px; /* Space above bottom details */  
+    font-size: 14px; /* Font size for bottom details */  
+}  
+
+.bottom-text a {  
+    color: #fff; /* Color for privacy policy link */  
+    text-decoration: none; /* Remove underline */  
+}  
+
+.bottom-text a:hover {  
+    text-decoration: underline; /* Underline on hover */  
+}
